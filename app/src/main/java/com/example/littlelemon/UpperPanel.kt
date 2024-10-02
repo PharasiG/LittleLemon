@@ -46,8 +46,7 @@ fun UpperPanel(count: Int, onIncrement: () -> Unit, onDecrement: () -> Unit) {
             color = Color(0xFFEDEFEE)
         )
         Row(
-            modifier = Modifier
-                .padding(top = 18.dp)
+            modifier = Modifier.padding(top = 18.dp)
         ) {
             Text(
                 text = stringResource(id = R.string.description),
